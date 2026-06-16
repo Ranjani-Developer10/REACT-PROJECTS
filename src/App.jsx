@@ -5,6 +5,7 @@ import StudentMark from "./pages/StudentMark";
 import Employe from "./pages/Employe";
 import TodoTask from "./pages/TodoTask";
 import UserApi from "./pages/UserApi";
+import EmployeReg from "./pages/EmployeReg";
 const App=()=>{
   return(
     <>
@@ -15,6 +16,7 @@ const App=()=>{
     <Employe/>
     <TodoTask/>
     <UserApi/>
+    <EmployeReg/>
     </>
   )
 }

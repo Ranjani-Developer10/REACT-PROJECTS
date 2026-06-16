@@ -18,7 +18,7 @@ function UserApi(){
     return(
         <>
         <h1>USER---API</h1>
-        <input type="text" placeholder="USER" value={search} onChange={(e)=>setSearch(e.target.value)}/>
+        <input type="text" placeholder="SEARCH" value={search} onChange={(e)=>setSearch(e.target.value)}/>
         <ul>
         {filteredUser.map((user)=>(
             <li key={user.id}>{user.name}</li>
