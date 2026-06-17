@@ -1,6 +1,6 @@
 // Question 2: Product Price Calculator Create a form with: Product Name Price Quantity Requirements: Calculate Total = Price × Quantity Display the total amount If total > 5000 show "Discount Eligible"
 
-import React,{useState} from "react";
+import React,{useState} from "react"
 
 
 function ProductCal(){
